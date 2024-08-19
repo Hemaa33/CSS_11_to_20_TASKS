@@ -1,0 +1,114 @@
+body{
+    font-family: Rubik;
+}
+.sec-begin{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 27px;
+    font-weight: 700;
+}
+.sec-title{
+    text-align: center;
+    font-weight:300;
+}
+.US{
+    margin-left: 4px;
+    color: #FF5A6E;
+}
+.container{
+    margin: 10%;
+    margin-top: 3%;
+    margin-bottom: 0%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10%;
+}
+.col1{
+    grid-column: span 2;
+}
+.sec1-title{
+    font-weight: 600;
+    font-size: 27px;
+}
+.sec2-subtitle{
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.sec1-title::after{
+    content: "";
+    position: absolute;
+    border-bottom: #FF5A6E solid 3px ;
+    width: 50px;
+    top: 12%;
+    left: 48%;
+}
+.Name{
+    width: 90%;
+    height: 35px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+.Email{
+    width: 359px;
+    margin-right: 0%;
+    height: 35px;
+    padding-left: 10px;
+}
+.Phone{
+    width: 359px;
+    margin-left: 7px;
+    height: 35px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+.Proj{
+    width: 90%;
+    height: 220px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+.sendMessage{
+    border-radius: 20%;
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: #FF5A6E;
+    color: aliceblue;
+    font-weight: 600;
+}
+.fa-facebook{
+    margin-top: 20px;
+    margin-right: 10px;
+    color: #3B5998;
+
+}
+.fa-square-instagram{
+    margin-right: 10px;
+    color: #CD486B;
+}
+.fa-pinterest{
+    margin-right: 10px;
+    color: #BD081C ;
+}
+.fa-twitter{
+    margin-right: 10px;
+    color: #00B6F1;
+}
+.address{
+    display: flex;
+}
+.address-icon{
+    align-content:center;
+    margin-right: 6px;
+    border: gray solid 1px;
+    padding: 9px;
+    border-radius: 100%;
+    height: 23px;
+    color: #FF5A6E;
+    background-color: #F6F6F6;
+}
+.address-text{
+    align-content:center;
+    
+}

@@ -1,0 +1,71 @@
+body{
+    font-family: Rubik;
+    color: #808080;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 5% 10%;
+    column-gap: 5%;
+}
+.sec1-begin{
+    color: #FF375F;
+}
+.sec1-title{
+    color: #09305C;
+}
+.service-title{
+    color: #09305C;
+}
+.featured-services{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 5%;
+}
+.service{
+    padding: 6%;
+    padding-top: 12%;
+    margin-top: 15%;
+    box-shadow: 3px 3px 13px #888888;
+}
+
+.sec2{
+    width: 480px;
+    padding: 30px;
+    box-shadow: 3px 3px 13px #888888;
+}
+.form-input-wide{
+    width: 90%;
+    margin: 7px;
+    margin-top: 0px;
+    height: 40px;
+    margin-bottom: 15px;
+    padding-left:7px;
+    padding-top:4px;
+    border-radius: 5px;
+    border: #CAD3DD solid 2px;
+    
+}
+.form-input{
+    display: inline-block;
+    width: 200px;
+    margin: 7px;
+    margin-bottom: 15px;
+    height: 40px;
+    padding-left:7px;
+    padding-top:4px;
+    border-radius: 5px;
+    border: #CAD3DD solid 2px;
+}
+.form-button{
+    background-color: #FF375F;
+    color: white;
+    font-weight: 600;
+    width: 93%;
+    height: 50px;
+    border: none;
+}
+.form-title{
+    color: #09305C;
+    margin-left: 7px;
+}

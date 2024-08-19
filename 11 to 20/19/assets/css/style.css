@@ -1,0 +1,80 @@
+body{
+    font-family: Rubik;
+}
+.container{
+    margin-left:  8% ;
+    margin-right: 8%  ;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    text-align: center;
+}
+.sec-begin{
+    text-align: center;
+    font-size: 22.5px;
+    font-weight:500 ;
+    margin-bottom: 0%;
+    color: #086AD7;
+}
+.sec-title{
+    margin-top: 1%;
+    margin-bottom: 4%;
+    text-align: center;
+    font-size: 34px;
+    font-weight:500 ;
+}
+.sec-title::after{
+    content: "";
+    position: absolute;
+    border-bottom: solid #086AD7 3px;
+    width:4%;
+    top: 16%;
+    right:48%;
+
+}
+.sec-title::before{
+    content: "";
+    position: absolute;
+    border-bottom: solid #086AD7 3px;
+    width:0.7%;
+    top: 16%;
+    right:46.9%;
+
+}
+.card-img{
+    border-radius: 5%;
+    width: 338px;
+    height: 358px;
+}
+.name-card{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+.job-title{
+    margin-top: 0%;
+    color: #086AD7;
+    font-weight: 500;
+}
+.plus{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    rotate: 45deg;
+    margin: 0%;
+     position: absolute;
+    margin-left: 310px;
+    top: 70%;
+    border-radius: 10%;
+}
+.plus-text{
+    rotate: 45deg;
+    position: absolute;
+    margin: 0%;
+    margin-left: 9px;
+    margin-top: 1px;
+    color: #086AD7;
+    font-size: 25px;
+    font-weight: 600;
+}

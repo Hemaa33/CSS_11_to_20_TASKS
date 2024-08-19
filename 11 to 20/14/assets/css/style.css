@@ -1,0 +1,109 @@
+body{
+    font-family: Rubik;
+    background-color: #F9F9F9;
+}
+.sec-begin{
+    text-align: center;
+    font-size: 12px;
+    font-weight:500;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #EB2027;
+}
+.title{
+    width: 30%;
+    height: auto;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0%;
+    margin-left: 35%;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.card-image{
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+.card{
+    margin: 3%;
+    border-radius: 5%;
+    background-color: #FFFFFF;
+}
+.card-cover{
+    margin: 3%;
+}
+.card-body{
+    margin: 5%;
+    margin-top: 0%;
+    }
+.location{
+    color: #EB2027;
+    font-size: 13px;
+    font-weight: 400;
+}
+.card-desc{
+    margin-top: 0%;
+    font-size: 25px;
+    font-weight: 600;
+}
+.fa-location-dot{
+    margin-right: 2%;
+}
+.house-features{
+    display: flex;
+    justify-content: left;
+}
+.fa-bed{
+    color:#EB2027;
+    margin-right: 7px;
+}
+.features-text{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right: 5%;
+}
+.fa-toilet{
+    color:#EB2027;
+    margin-right: 7px;
+}
+.fa-box{
+    color:#EB2027;
+    margin-right: 7px;
+}
+.price{
+    font-size: 25px;
+    font-weight: 600;
+}
+.per-month{
+    color: #989AA0;
+    font-size: 17px;
+    align-self: end;
+}
+.pricepermonth{
+    margin-top: 5%;
+    display: flex;
+}
+.fa-heart{
+    color: #EB2027;
+    margin-left: 55%;
+    align-self: center;
+}
+.image-button{
+    background-color: #EB2027;
+    position:absolute;
+    color: white;
+    border-radius: 40%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 4.5%;
+}
+.middle-button{
+    background-color: #D5E5F7;
+    color: black;
+}

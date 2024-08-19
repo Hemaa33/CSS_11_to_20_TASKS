@@ -1,0 +1,96 @@
+body{
+    font-family: Rubik;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10%;
+}
+.sec-title{
+    text-align: center;
+}
+.card{
+    padding-top: 14%;
+    background-color: #EFF1F9;
+    margin: 3%;
+    border-radius: 6%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+
+}
+.circle1{
+    background-color: #3E66F3;
+    border-radius: 100%;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    padding-top: 3%;
+    left: 18.5%;
+    top: 20%;
+}
+.circle2{
+    background-color: #3E66F3;
+    border-radius: 100%;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    padding-top: 3%;
+    left: 45%;
+    top: 20%;
+}
+.circle3{
+    background-color: #3E66F3;
+    border-radius: 100%;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    padding-top: 3%;
+    right: 18.5%;
+    top: 20%;
+}
+.price{
+margin: 0%;
+color: #EFF1F9;
+font-size: x-large;
+font-weight: 700;
+}
+.permonth{
+    margin: 0%;
+    color: #EFF1F9;
+    font-weight: 200;
+    font-size:small;
+}
+.card-title{
+    font-weight: 800;
+    font-size:x-large;
+    margin: 0%;
+    margin-top: 5%;
+}
+.card-title-desc{
+    font-weight: 500;
+    font-size:small;
+    margin: 0%;
+    margin-bottom: 5%;
+
+}
+li{
+    margin: 2%;
+    list-style-image: url(../imgs/t.png);
+}
+.choose-button{
+    background-color: #3E66F3;
+    color: aliceblue;
+    border: none;
+    border-radius: 20%;
+    width: 50%;
+    height: 17%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: medium;
+    font-weight: 600;
+}

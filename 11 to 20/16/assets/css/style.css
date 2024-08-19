@@ -1,0 +1,34 @@
+body{
+    font-family: Rubik;
+}
+.description{
+    font-size: 90%;
+    color: gray;
+}
+.title{
+    font-weight: 600;
+    font-size: 140%;
+    color: black;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.col1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;    
+}
+.col1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 6%;
+}
+.feature{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.logo{
+    margin-right: 2%;
+}
